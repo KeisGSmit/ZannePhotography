@@ -1,0 +1,23 @@
+body{
+	font-family: Arial, Helvetica, sans-serif;
+	background-image: url(https://i2-prod.mirror.co.uk/incoming/article13444693.ece/ALTERNATES/s810/0_Cannabis-farm.jpg);
+	background-size: 100%;
+}
+#header {
+	background-color: #35de2f;
+	text-align: center;
+}
+
+#tool_bar_boxes{
+	display: inline-block;
+	outline: 4px;
+	text-align: center;
+	background-color: #36ff33;
+	width: 100%;
+	margin: 0 auto;
+
+}
+.tool_bar_button{
+	background-color: #36ff33;
+	width: 18%;
+}
