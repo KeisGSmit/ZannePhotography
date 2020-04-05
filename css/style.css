@@ -62,7 +62,7 @@ body{
 	padding: 5%;
 	color: #777777;
 }
-#filling {
+#filling_top {
     background: #113019;
     background: -moz-linear-gradient(top, #113019 0%, #FFFFFF 50%, #FFFFFF 100%);
     background: -webkit-linear-gradient(top, #113019 0%, #FFFFFF 50%, #FFFFFF 100%);
@@ -74,3 +74,65 @@ body{
 #navigation_bar a:hover{
     border-bottom: 3px solid #777777; 
 }
+#gallery {
+	clear: both;
+	line-height: 0px;
+	column-count: 4;
+	column-gap: 0px;
+
+}
+#gallery img {
+	width: 100%;
+}
+#footer{
+    background-color:#FFFFEC;
+}
+
+.form_section{
+    clear: both;
+    background-image: url("media/white&red1.jpeg"); 
+    background-size: cover;
+    background-position: center;
+    height: 900px;
+}
+
+ .signup-form {
+  	margin-top: 150px;
+  	color: #fff;
+  	background-color: rgba(60, 60, 60, 0.6);
+  	max-width: 400px;
+  	position: absolute;
+  	left: 10%;
+  	padding: 30px;
+  }
+.signup-form h2{
+  	color: #fafafa;
+  	margin-bottom: 20px;
+  }
+.text-input{
+	background-color: transparent;
+	color: #fafafa;
+	width: 100%;
+	height: 25px;
+	margin: 5px 0 20px 0;
+	border: 1px solid #fafafa;
+	border-radius: 2px;
+}
+.text-input:hover {
+	border-color: #f16c6b;
+}
+.join-button {
+	margin-top: 20px;
+	border-radius: 2px;
+	padding: 15px 32px 15px 32px;
+	text-align: center;
+	font-size: 100%;
+	background-color: #f16c6b;
+	color: #fafafa;
+	display: block;
+}
+.join-button:hover{
+	background-color: #fafafa;
+	color: #f16c6b;
+}
+
