@@ -89,12 +89,12 @@ body{
 
 .form_section{
     clear: both;
-    background-image:url('white&red1.jpeg');
+    background-image:url('../white&red1.jpeg');
     background-size: cover;
     background-position: center;
-    height: 2vh;
-    width: 1vw;
-
+    height: auto;
+    width: auto;
+    overflow: auto;
 }
 
  .signup-form {
